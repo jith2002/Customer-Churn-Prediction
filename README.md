@@ -128,5 +128,4 @@ joblib
 ## Author
 
 **Ranjith Kumar T M**  
-MBA — Business Analytics & Marketing, PES University  
 [LinkedIn](https://linkedin.com/in/ranjith-kumar-t-m) · [GitHub](https://github.com/jith2002)
