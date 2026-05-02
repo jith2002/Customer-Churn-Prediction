@@ -22,19 +22,19 @@ Five models were evaluated across three stages. In the first stage, all five mod
 5-fold Stratified Cross-Validation was performed on fresh pipeline clones. Hyperparameter tuning was conducted via RandomizedSearchCV optimizing for recall. ROC and Precision-Recall curves were used for threshold-independent evaluation. Threshold tuning was applied to maximize F1-score. MDI and Permutation Importance were used for feature interpretability. A business cost matrix was built using USD 500 per missed churner and USD 50 per false alarm.
 
 ## Final Model: Gradient Boosting (Threshold = 0.55)
-Recall: 66.6%
-Precision: 55.3%
-F1-Score: 60.4%
-AUC-ROC: 82.7%
-PR-AUC: 60.3%
-Accuracy: 77.4%
+•	Recall: 66.6%
+•	Precision: 55.3%
+•	F1-Score: 60.4%
+•	AUC-ROC: 82.7%
+•	PR-AUC: 60.3%
+•	Accuracy: 77.4%
 
 ## Model Performance Progression
-Baseline (Original Data): 55.6% recall
-After Decision Tree Pruning: 61.2% recall
-After SMOTE Pipeline: 66.6% recall
-After Hyperparameter Tuning: 71.4% recall
-Final Model (Threshold 0.55): 66.6% recall
+•	Baseline (Original Data): 55.6% recall
+•	After Decision Tree Pruning: 61.2% recall
+•	After SMOTE Pipeline: 66.6% recall
+•	After Hyperparameter Tuning: 71.4% recall
+•	Final Model (Threshold 0.55): 66.6% recall
 
 ## Key Churn Drivers
 Seven features consistently identified by both MDI and Permutation Importance: tenure (strongest predictor, first 12 months highest risk), electronic check payment (45.3% churn vs 15-17% for automatic payments), fiber optic internet (41.9% churn despite being premium tier), paperless billing (33.6% churn vs 16.3% for paper billing), two-year contract (just 2.8% churn, dominant retention lever), total charges, and monthly charges.
